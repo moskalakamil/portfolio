@@ -22,10 +22,14 @@ export default function RootLayout({
       <body
         style={{
           backgroundImage: `url(${images.noiseBackground.default.src})`,
+          backgroundRepeat: "repeat",
+          overscrollBehavior: "none",
         }}
         className={inter.className}
       >
-        <main className={"mx-auto max-w-6xl py-4"}>{children}</main>
+        <main className={"mx-auto max-w-6xl px-4 sm:px-7 md:px-12"}>
+          {children}
+        </main>
       </body>
     </html>
   );
