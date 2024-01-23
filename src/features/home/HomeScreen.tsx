@@ -13,7 +13,7 @@ const navItems = [
   },
   {
     text: "Projects",
-    href: "/",
+    href: "/projects",
   },
   {
     text: "Contact",

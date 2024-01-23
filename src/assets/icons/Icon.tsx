@@ -1,8 +1,10 @@
 import React from "react";
 import arrowlink from "./Svg/arrow-link.svg";
+import arrowback from "./Svg/arrow-back.svg";
 
 const ICONS = {
   arrowlink,
+  arrowback,
 };
 
 export type IconType = keyof typeof ICONS;

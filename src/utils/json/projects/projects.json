@@ -1,0 +1,26 @@
+[
+  {
+    "type": "MOBILE",
+    "url": "https://github.com/moskalakamil/arts-lists",
+    "title": "arts-lists",
+    "description": "Simple RN app that allows you to search for your favourite artists and see their arts"
+  },
+  {
+    "type": "WEB",
+    "url": "https://github.com/moskalakamil/studies-search-engine",
+    "title": "studies-search-engine ",
+    "description": "Web application that allows you to search for your favourite studies"
+  },
+  {
+    "type": "WEB",
+    "url": "https://github.com/moskalakamil/interista",
+    "title": "interista-web",
+    "description": "Website for Inter Mediolan football's fans"
+  },
+  {
+    "type": "OPEN_SOURCE",
+    "url": "https://github.com/facebook/react-native/pull/41774",
+    "title": "first react-native-contribution",
+    "description": "My first contribution into React Native core, at only 16yo"
+  }
+]
