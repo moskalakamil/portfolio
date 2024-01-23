@@ -1,8 +1,5 @@
-"use client";
-
 import React from "react";
 import { projects } from "@/utils/json/projects";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const ProjectItem = ({
