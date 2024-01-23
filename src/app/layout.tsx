@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { images } from "@/assets/images/Images";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Kamil Moskala",
@@ -25,7 +28,7 @@ export default function RootLayout({
           backgroundRepeat: "repeat",
           overscrollBehavior: "none",
         }}
-        className={inter.className}
+        className={poppins.className}
       >
         <main className={"mx-auto max-w-6xl px-4 sm:px-7 md:px-12"}>
           {children}
