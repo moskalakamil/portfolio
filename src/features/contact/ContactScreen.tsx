@@ -21,8 +21,9 @@ const ContactScreen = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
+    setIsSuccess(false);
 
-    const req = await fetch("/api/send-email", {
+    const res = await fetch("/api/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,20 +33,21 @@ const ContactScreen = () => {
         message: message.current?.value,
       }),
     });
-    const res = await req.json();
+
+    const data = await res.json();
 
     setIsLoading(false);
 
     if (res.status === 200) {
       setIsSuccess(true);
-      setResMsg(res.message);
+      setResMsg(data.message);
       email.current!.value = "";
       message.current!.value = "";
       return;
     }
 
     if (!res.ok) {
-      return setResMsg(res.message);
+      return setResMsg(data.message);
     }
   };
 
@@ -57,7 +59,7 @@ const ContactScreen = () => {
       <div className={"flex gap-4"}>
         <form
           className={
-            "mt-20 flex w-full flex-col pb-4 text-base sm:max-w-[40%] lg:mt-12 lg:max-w-lg"
+            "relative mt-20 flex w-full flex-col pb-4 text-base sm:max-w-[40%] lg:mt-12 lg:max-w-lg"
           }
           onSubmit={handleSubmit}
         >
@@ -88,17 +90,19 @@ const ContactScreen = () => {
             <button
               onClick={() => setResMsg("")}
               type={"submit"}
-              className={cn(isLoading && "cursor-not-allowed text-neutral-300")}
+              className={cn(
+                isLoading && "cursor-not-allowed !text-neutral-300",
+              )}
               disabled={isLoading}
             >
               [send]
             </button>
-            <div className="hovered-div" />
+            <div className={"hovered-div"} />
           </div>
           {resMsg && (
             <p
               className={cn(
-                "absolute bottom-5 text-base",
+                "absolute -bottom-3 text-base sm:whitespace-nowrap",
                 isSuccess ? "text-green-600" : "text-red-600",
               )}
             >
