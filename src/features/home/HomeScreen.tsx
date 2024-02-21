@@ -9,7 +9,7 @@ const navItems = [
   },
   {
     text: "Work",
-    href: "/",
+    href: "/work",
   },
   {
     text: "Projects",
@@ -42,7 +42,7 @@ const HomeScreen = () => {
       <HomeHeading />
       <div
         className={
-          "xs:flex-row xs:items-start xs:gap-0 xs:justify-between flex w-full flex-col items-center justify-center gap-12 pt-24"
+          "flex w-full flex-col items-center justify-center gap-12 pt-24 xs:flex-row xs:items-start xs:justify-between xs:gap-0"
         }
       >
         <HomeTabsSection links={navItems} heading={"See more"} />
