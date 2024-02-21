@@ -1,7 +1,9 @@
 import workJSON from "./work.json";
 
-//description can be tsx
-//endDate can be null if the work is ongoing
+/*
+'description' can be jsx
+'endDate' can be null if the work is ongoing
+*/
 
 interface Work {
   company: string;
