@@ -6,6 +6,7 @@ const config: Config = {
     extend: {
       screens: {
         xs: "320px",
+        "3xl": "3420px",
       },
     },
   },

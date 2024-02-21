@@ -17,11 +17,11 @@ const navItems = [
   },
   {
     text: "Contact",
-    href: "/",
+    href: "/contact",
   },
 ];
 
-const socialMediaItems = [
+export const socialMediaItems = [
   {
     text: "Twitter",
     href: "/",
@@ -32,6 +32,10 @@ const socialMediaItems = [
   },
   {
     text: "Github",
+    href: "/",
+  },
+  {
+    text: "Mail",
     href: "/",
   },
 ];
