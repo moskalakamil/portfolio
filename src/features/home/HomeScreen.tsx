@@ -17,22 +17,26 @@ const navItems = [
   },
   {
     text: "Contact",
-    href: "/",
+    href: "/contact",
   },
 ];
 
-const socialMediaItems = [
+export const socialMediaItems = [
   {
     text: "Twitter",
-    href: "/",
+    href: "https://twitter.com/moskalakamil",
   },
   {
     text: "LinkedIn",
-    href: "/",
+    href: "https://www.linkedin.com/in/kamil-moskała-346064250",
   },
   {
-    text: "Github",
-    href: "/",
+    text: "GitHub",
+    href: "https://www.github.com/moskalakamil",
+  },
+  {
+    text: "Mail",
+    href: "mailto:moskalakamil07@gmail.com",
   },
 ];
 
