@@ -5,7 +5,7 @@ import HomeTabsSection from "@/features/home/_components/HomeTabsSection";
 const navItems = [
   {
     text: "About",
-    href: "/",
+    href: "/about",
   },
   {
     text: "Work",
