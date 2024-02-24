@@ -6,13 +6,12 @@ import { images } from "@/assets/images/Images";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
   title: "Kamil Moskala",
-  description:
-    "React/React Native Developer with a Passion for Innovation - portfolio",
+  description: "16 yo React/React Native Developer - Personal Website",
 };
 
 export default function RootLayout({
