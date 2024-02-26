@@ -46,7 +46,7 @@ const HomeScreen = () => {
       <HomeHeading />
       <div
         className={
-          "flex w-full flex-col items-center justify-center gap-12 pt-24 xs:flex-row xs:items-start xs:justify-between xs:gap-0"
+          "flex w-full flex-col items-start justify-center gap-12 pb-12 pt-24 xs:flex-row xs:justify-between xs:gap-0"
         }
       >
         <HomeTabsSection links={navItems} heading={"See more"} />

@@ -28,7 +28,7 @@ const ContactScreen = () => {
           <Icon name={"arrowcontact"} className={"overflow-hidden"} />
         </div>
       </div>
-      <div className={"-mx-6 mt-20 pl-2"}>
+      <div className={"-ml-4 mt-20"}>
         <HomeTabsSection links={socialMediaItems} heading={"Connect"} />
       </div>
     </section>
