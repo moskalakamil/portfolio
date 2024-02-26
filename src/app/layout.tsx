@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { images } from "@/assets/images/Images";
+import Image from "next/image";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,15 +22,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        style={{
-          backgroundImage: `url(${images.noiseBackground.default.src})`,
-          backgroundRepeat: "repeat",
-          overscrollBehavior: "none",
-        }}
-        className={poppins.className}
-      >
-        <main className={"mx-auto max-w-6xl px-4 sm:px-7 md:px-12"}>
+      <body className={poppins.className}>
+        <Image
+          src={JSON.parse(JSON.stringify(images.noiseBackground))}
+          priority={true}
+          alt={"background-noise"}
+          className={"fixed inset-0 -z-10 h-screen w-screen"}
+        />
+        <main
+          className={
+            "mx-auto max-w-6xl px-4 pb-12 text-neutral-900 sm:px-7 md:px-12"
+          }
+        >
           {children}
         </main>
       </body>
