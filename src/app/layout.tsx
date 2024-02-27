@@ -10,9 +10,27 @@ const poppins = Poppins({
   weight: ["400", "500", "700"],
 });
 
+const description = "16 yo React/React Native Developer - Personal Website";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.moskalakamil.com"),
   title: "Kamil Moskala",
-  description: "16 yo React/React Native Developer - Personal Website",
+  description,
+  openGraph: {
+    title: "Kamil Moskala",
+    description,
+    url: "https://www.moskalakamil.com",
+    siteName: "Kamil Moskala",
+    locale: "en_US",
+    type: "website",
+    images: ["https://www.moskalakamil.com/opengraph-image.png"],
+  },
+  twitter: {
+    title: "Kamil Moskala",
+    card: "summary_large_image",
+    description,
+    images: ["https://www.moskalakamil.com/twitter-image.png"],
+  },
 };
 
 export default function RootLayout({
