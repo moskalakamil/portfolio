@@ -23,7 +23,7 @@ const ProjectItem = ({
       </span>
     </div>
     <span
-      className={"text-neutral-600"}
+      className={"text-justify text-neutral-600"}
       dangerouslySetInnerHTML={{
         __html: description,
       }}
