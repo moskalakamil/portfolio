@@ -18,6 +18,7 @@ const AboutScreen = () => {
           sm:mr-0
           sm:aspect-[1/1]
           "
+          priority={true}
           src={JSON.parse(JSON.stringify(images.aboutPhoto))}
           alt="Kamil Moskala's photo"
         />
