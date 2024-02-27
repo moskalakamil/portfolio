@@ -5,7 +5,7 @@ import BackButton from "@/features/_components/BackButton";
 
 const ProjectsScreen = () => {
   return (
-    <section className={"mx-auto max-w-3xl"}>
+    <section className={"mx-auto max-w-3xl pb-12"}>
       <div className={"inline-block"}>
         <BackButton href={"/"} text={"Projects"} />
       </div>

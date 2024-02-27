@@ -42,7 +42,7 @@ export const socialMediaItems = [
 
 const HomeScreen = () => {
   return (
-    <div className={"flex min-h-screen flex-col items-center pt-20"}>
+    <div className={"flex min-h-screen flex-col items-center pb-12 pt-20"}>
       <HomeHeading />
       <div
         className={

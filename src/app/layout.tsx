@@ -48,9 +48,7 @@ export default function RootLayout({
           className={"fixed inset-0 -z-10 h-screen w-screen"}
         />
         <main
-          className={
-            "mx-auto max-w-6xl px-4 pb-12 text-neutral-900 sm:px-7 md:px-12"
-          }
+          className={"mx-auto max-w-6xl px-4 text-neutral-900 sm:px-7 md:px-12"}
         >
           {children}
         </main>

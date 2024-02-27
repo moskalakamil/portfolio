@@ -13,7 +13,7 @@ const ContactScreen = () => {
   const { height } = useGetWindowSize();
 
   return (
-    <section className={"mx-auto w-full sm:max-w-3xl"}>
+    <section className={"mx-auto w-full pb-12 sm:max-w-3xl"}>
       <div className={"inline-block"}>
         <BackButton href={"/"} text={"Contact"} />
       </div>

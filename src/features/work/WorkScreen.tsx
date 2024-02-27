@@ -5,7 +5,7 @@ import WorkItem from "@/features/work/_components/WorkItem";
 
 const WorkScreen = () => {
   return (
-    <section className={"mx-auto max-w-3xl"}>
+    <section className={"mx-auto max-w-3xl pb-12"}>
       <div className={"inline-block"}>
         <BackButton href={"/"} text={"Work"} />
       </div>
