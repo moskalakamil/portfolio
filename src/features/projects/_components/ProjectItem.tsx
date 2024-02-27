@@ -1,13 +1,8 @@
 import React from "react";
-import { projects } from "@/utils/json/projects";
+import { Project, projects } from "@/utils/json/projects";
 import Link from "next/link";
 
-const ProjectItem = ({
-  type,
-  title,
-  description,
-  url,
-}: (typeof projects)[0]) => (
+const ProjectItem = ({ type, title, description, url }: Project) => (
   <Link
     href={url}
     target={"_blank"}

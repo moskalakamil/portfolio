@@ -5,7 +5,7 @@ import workJSON from "./work.json";
 'endDate' can be null if the work is ongoing
 */
 
-interface Work {
+export interface Work {
   company: string;
   position: string;
   website: string;

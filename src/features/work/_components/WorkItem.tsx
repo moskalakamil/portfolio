@@ -1,5 +1,5 @@
 import React from "react";
-import { works } from "@/utils/json/work";
+import { Work, works } from "@/utils/json/work";
 import Link from "next/link";
 
 const ProjectItem = ({
@@ -9,7 +9,7 @@ const ProjectItem = ({
   website,
   startDate,
   endDate,
-}: (typeof works)[0]) => (
+}: Work) => (
   <section className={"flex flex-col gap-2 border-b py-6 last:border-b-0"}>
     <Link href={website} target={"_blank"} className={"text-xl font-medium"}>
       {company}

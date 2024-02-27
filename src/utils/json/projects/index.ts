@@ -1,6 +1,6 @@
 import projectsJSON from "./projects.json";
 
-interface Project {
+export interface Project {
   type: "WEB" | "MOBILE" | "OPEN_SOURCE";
   title: string;
   description: string;
