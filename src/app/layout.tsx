@@ -42,7 +42,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <Image
-          src={JSON.parse(JSON.stringify(images.noiseBackground))}
+          src={images.noiseBackground}
           priority={true}
           alt={"background-noise"}
           className={"fixed inset-0 -z-10 h-screen w-screen"}

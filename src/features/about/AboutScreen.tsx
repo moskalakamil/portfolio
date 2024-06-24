@@ -19,7 +19,7 @@ const AboutScreen = () => {
           sm:aspect-[1/1]
           "
           priority={true}
-          src={JSON.parse(JSON.stringify(images.aboutPhoto))}
+          src={images.aboutPhoto}
           alt="Kamil Moskala's photo"
         />
         <div className={"text-justify text-neutral-600"}>

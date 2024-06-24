@@ -1,8 +1,10 @@
 import { StaticImageData } from "next/image";
+import aboutPhoto from "./Img/aboutPhoto.jpg";
+import noiseBackground from "./Img/noiseBackground.png";
 
 type Images = Record<string, Readonly<StaticImageData>>;
 
-export const images = {
-  aboutPhoto: require("./Img/aboutPhoto.jpg"),
-  noiseBackground: require("./Img/noiseBackground.png"),
-} satisfies Images;
+export const images: Images = {
+  aboutPhoto: aboutPhoto,
+  noiseBackground: noiseBackground,
+};
