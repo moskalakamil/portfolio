@@ -25,7 +25,7 @@ const AboutScreen = () => {
         <div className={"text-justify text-neutral-600"}>
           <p>
             {`
-        Hey there! 👋 I'm a 16-year-old React and React Native developer. My
+        Hey there! 👋 I'm a 17-year-old React and React Native developer. My
         journey into coding started with curiosity but quickly turned into a
         full-blown passion. I love delving into React's architecture and
         engaging with Open Source activities.

@@ -10,7 +10,7 @@ const poppins = Poppins({
   weight: ["400", "500", "700"],
 });
 
-const description = "16 yo React/React Native Developer - Personal Website";
+const description = "17 yo React/React Native Developer - Personal Website";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.moskalakamil.com"),
