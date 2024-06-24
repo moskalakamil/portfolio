@@ -24,7 +24,7 @@ const navItems = [
 export const socialMediaItems = [
   {
     text: "Twitter",
-    href: "https://twitter.com/moskalakamil",
+    href: "https://x.com/moskalakamil",
   },
   {
     text: "LinkedIn",

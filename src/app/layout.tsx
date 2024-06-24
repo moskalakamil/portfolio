@@ -10,7 +10,7 @@ const poppins = Poppins({
   weight: ["400", "500", "700"],
 });
 
-const description = "16 yo React/React Native Developer - Personal Website";
+const description = "17 yo React/React Native Developer - Personal Website";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.moskalakamil.com"),
@@ -42,7 +42,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <Image
-          src={JSON.parse(JSON.stringify(images.noiseBackground))}
+          src={images.noiseBackground}
           priority={true}
           alt={"background-noise"}
           className={"fixed inset-0 -z-10 h-screen w-screen"}
