@@ -1,13 +1,27 @@
 [
   {
+    "company": "TheWidlarzGroup",
+    "website": "https://www.thewidlarzgroup.com/",
+    "position": "Software Developer & RN Community Manager",
+    "startDate": {
+      "month": "June",
+      "year": 2024
+    },
+    "endDate": null,
+    "description": "My role involves discovering new areas of programming, contributing to open source projects and developing mobile applications. I also work with the marketing team to create strategies that showcase our technological achievements and engage with the developer community."
+  },
+  {
     "company": "Sysmo",
-    "website": "https://startup.sysmo.pl/",
+    "website": "https://sysmo.pl/",
     "position": "React/React Native Developer",
     "startDate": {
-        "month": "July",
-        "year": 2023
-        },
-    "endDate": null,
+      "month": "July",
+      "year": 2023
+    },
+    "endDate": {
+      "month": "June",
+      "year": 2024
+    },
     "description": "I'm working on different projects for clients from all over the world. I'm responsible for creating new features, fixing bugs, maintaining existing code and working on internal projects. I created, among others, admin panels, mobile apps, web apps, e-commerce, CI/CD etc."
   }
 ]
